@@ -87,3 +87,8 @@
     background-color: rgb(0, 73, 255);
     color: white;
 }
+
+#jumbotron {
+    height: 900px;
+    background-image: url(img/bgf.jpg);
+}
