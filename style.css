@@ -1,0 +1,42 @@
+
+.navbar-default {
+    background-color: white;
+    border-color: #e7e7e7;
+}
+
+.navbar {
+    min-height: 20px;
+}
+
+.logo {
+    height: 30px;
+    background-color: blue;
+}
+
+.navbar-brand {
+    float: none;
+    height: 50px;
+    padding: 19px 19px;
+    font-size: 12px;
+    line-height: 32px;
+}
+
+#navtop {
+    font-size: 13px;
+}
+
+#navtop .navbar-nav>.li-top-right>a {
+    padding: 10px 15px 10px 5px;
+}
+
+#navtop .navbar-nav>.li-top-left>a {
+    padding: 10px 0;
+}
+
+#navtop .li-top-left span {
+    background-color: rgb(0, 215, 219);
+    color: black;
+    padding: 2px 3px;
+    border-radius: 4px;
+    font-weight: 500;
+}
