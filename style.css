@@ -159,3 +159,114 @@
     font-size: 24px;
     color: rgb(161, 186, 255);
 }
+.divider {
+    position: relative;
+    padding: 15px 0;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    position: absolute;
+    width: calc((100% - 120px) / 2);
+    top: 50%;
+    transform: translateY(-50%);
+    height: 0.5px;
+    background-color: #ddd;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+#jumbotron .create-btn {
+    color: white;
+    background-color: rgb(0, 73, 255);
+    padding: 10px 0;
+}
+
+#jumbotron .create-btn:hover {
+    background-color: blue;
+}
+
+#jumbotron .btn-lg {
+    width: calc((100% - 35px) / 2);
+}
+
+#jumbotron .btn-lg span {
+    font-weight: bold;
+}
+
+#jumbotron .btn-lg:first-of-type {
+    margin-right: 30px;
+}
+
+#jumbotron .btn-default {
+    background: #f2f8ff;
+    border: 1px solid rgba(0,105,255,.2);
+}
+
+#jumbotron .btn-default i {
+    padding-left: 0;
+}
+
+#jumbotron .btn-default:hover {
+    background: #d5e4f7;
+}
+
+#jumbotron .small {
+    padding-top: 30px;
+    display: inline-block;
+    margin-top: 15px;
+}
+#jumbotron .small a {
+    text-decoration: underline;
+    color: rgb(0, 73, 255);
+}
+
+#loghi {
+    background-color: rgb(243, 245, 249);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.logo-container {
+    height: 50px;
+}
+
+#loghi .row > div:first-child {
+    margin-bottom: 20px;
+}
+
+#loghi .row > div:last-child {
+    margin-top: 20px;
+}
+
+#loghi img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+#loghi p {
+    color: rgb(168, 175, 193);
+    font-weight: bold;
+}
+
+#loghi a {
+    font-size: 16px;
+    color: #0069ff;
+}
+
+#loghi a:hover {
+    color: #0069ff;
+    text-decoration: none;
+}
+
+#loghi a i {
+    vertical-align: middle;
+}
