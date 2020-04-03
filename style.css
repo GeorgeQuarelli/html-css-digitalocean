@@ -270,3 +270,41 @@
 #loghi a i {
     vertical-align: middle;
 }
+
+
+#deploy {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#deploy .row:nth-of-type(2) {
+    margin-top: 40px;
+}
+
+#deploy ul {
+    padding-inline-start: 0px;
+}
+#deploy ul>li {
+    list-style-type: none;
+    padding: 15px 15px;
+    border-left: 1px solid rgb(168, 175, 193);
+}
+
+#deploy ul>li:first-of-type {
+    border-left: 1px solid #0069ff;
+}
+
+#deploy ul>li>a {
+    color: rgb(168, 175, 193);
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#deploy ul>li:first-of-type>a {
+    color: rgb(3, 26, 77);
+}
+
+#deploy ul>li>a:hover {
+    color: rgb(3, 26, 77);
+}
